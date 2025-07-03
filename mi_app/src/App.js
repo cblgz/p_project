@@ -16,6 +16,7 @@ function App() {
             <option value="option2">Opción 2</option>
             <option value="option3">Opción 3</option>
           </select>
+          <p>hola daian</p>
           <input
             type="text"
             placeholder="Buscar..."
