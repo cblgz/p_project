@@ -1,0 +1,54 @@
+/* Solo los estilos usados actualmente */
+.navbar-simple {
+  width: 100vw;
+  min-width: 100vw;
+  background: #282c34;
+  color: white;
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.navbar-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-left: 2rem;
+}
+.app-bg {
+  background: #f5f6fa;
+  min-height: 100vh;
+}
+.main-section {
+  max-width: 1100px;
+  margin: 2rem auto 0 auto;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  padding: 2.5rem 2rem;
+  min-height: 200px;
+}
+.search-bar {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+.search-input {
+  flex: 1 1 auto;
+  min-width: 0;
+  max-width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+  width: 250px;
+}
+.search-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  background: #61dafb;
+  color: #282c34;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
